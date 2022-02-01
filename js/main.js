@@ -7,6 +7,8 @@ const itemTitle = document.querySelectorAll('h2');
 const propsItemFour = document.querySelectorAll('.props__item_four');
 const propsItemTwo = document.querySelectorAll('.props__item_two');
 const propsItemFours = Array.from(propsItemFour);
+const ads = document.querySelector('.ads');
+ads.remove();
 
 
 propsItemFour.forEach(i => i.remove());
